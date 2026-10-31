@@ -87,7 +87,7 @@ async function sendMetaConversion(userId, tgUser) {
 
   const payload = {
     data: [{
-      event_name: 'Lead',
+      event_name: 'Subscribe',
       event_time: eventTime,
       action_source: 'website',
       user_data: { external_id: [externalId] },
